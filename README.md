@@ -1,4 +1,4 @@
-# Remote Work & Stress – R Group Project
+# Remote Work & Stress: R Group Project
 
 This project explores stress and burnout across job types in remote work settings using R. Conducted as part of STAT 4030: Programming in R, the analysis used synthetic survey data to investigate relationships between work arrangements, demographics, and mental health indicators.
 
@@ -13,6 +13,11 @@ This project explores stress and burnout across job types in remote work setting
 - Logistic regression for burnout prediction
 - Visualization with `ggplot2`
 - PMSE (Predicted Mean Squared Error) comparison for model evaluation
+
+## Code Access
+The full R script for this analysis is available in `remote_work_stress_analysis.R`.  
+It includes data cleaning, regression modeling (linear and logistic), visualization, and PMSE comparison.
+
 
 ## My Contributions
 - Led data cleaning and preprocessing for both datasets, including handling missing values and converting categorical variables
