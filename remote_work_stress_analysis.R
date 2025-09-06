@@ -84,5 +84,14 @@ summary(burnout_work_full_model)
 
 # Burnout Count Tables (Online and Onsite)
 real <- remotework_health_impact
-online_burnout <- real %>% filter(Work_Arrangement == "Online") %>% count(Job_Role, Burnout_Level)
+remote_burnout <- real %>% filter(Work_Arrangement == "Remote") %>% count(Job_Role, Burnout_Level)
 onsite_burnout <- real %>% filter(Work_Arrangement == "Onsite") %>% count(Job_Role, Burnout_Level)
+
+# Burnout Level by Work Arrangement Normalized Stacked Bar Plot
+ggplot(real, aes(x = Work_Arrangement, fill = Burnout_Level)) +
+  geom_bar(position = "fill") +
+  labs(title = "Burnout Level Distribution by Work Arrangement",
+       x = "Work Arrangement",
+       y = "Proportion",
+       fill = "Burnout Level") +
+  theme_minimal(base_size = 14)
