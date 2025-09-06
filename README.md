@@ -1,6 +1,6 @@
 # Remote Work & Stress: R Group Project
 
-This project explores stress and burnout across job types in remote work settings using R. Conducted as part of STAT 4030: Programming in R, the analysis used synthetic survey data to investigate relationships between work arrangements, demographics, and mental health indicators.
+This project explores stress and burnout across job roles and work arrangements using R. Conducted as part of STAT 4030: Programming in R, the analysis draws on both synthetic and real-world data to examine relationships between work arrangements, demographics, and mental health indicators.
 
 ## Objectives
 - Analyze how remote work and job type influence stress and burnout
@@ -24,10 +24,10 @@ This project explores stress and burnout across job types in remote work setting
 ## Key Findings
 - Weak correlations between remote ratio and stress level
 - No significant differences in stress by job role (ANOVA)
-- Logistic regression model revealed that onsite workers were significantly less likely to have high burnout compared to hybrid workers. No significant interaction effects were found between age and work arrangement.
+- Logistic regression model revealed that onsite workers were significantly less likely to have high burnout compared to hybrid workers.
 
 ## Limitations
-The synthetic data had limited variation and some categorical imbalance, which constrained model significance. However, the project provided significant experience in data modeling, visualization, and collaborative analysis.
+The synthetic data had limited variation and some categorical imbalance, which constrained model significance.
 
 ## Code Access
 The full R script for this analysis is available in `remote_work_stress_analysis.R`.  
