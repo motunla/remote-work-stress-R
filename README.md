@@ -13,12 +13,7 @@ This project explores stress and burnout across job types in remote work setting
 - Logistic regression for burnout prediction
 - Visualization with `ggplot2`
 - PMSE (Predicted Mean Squared Error) comparison for model evaluation
-
-## Code Access
-The full R script for this analysis is available in `remote_work_stress_analysis.R`.  
-It includes data cleaning, regression modeling (linear and logistic), visualization, and PMSE comparison.
-
-
+  
 ## My Contributions
 - Led data cleaning and preprocessing for both datasets, including handling missing values and converting categorical variables
 - Built and evaluated linear regression models to analyze stress levels
@@ -29,10 +24,10 @@ It includes data cleaning, regression modeling (linear and logistic), visualizat
 ## Key Findings
 - Weak correlations between remote ratio and stress level
 - No significant differences in stress by job role (ANOVA)
-- Logistic regression showed interaction effects between age and work arrangement on burnout likelihood
+- Logistic regression model revealed that onsite workers were significantly less likely to have high burnout compared to hybrid workers. No significant interaction effects were found between age and work arrangement.
 
 ## Limitations
-The synthetic data had limited variation and some categorical imbalance, which constrained model significance. However, the project provided strong experience in data modeling, visualization, and collaborative analysis.
+The synthetic data had limited variation and some categorical imbalance, which constrained model significance. However, the project provided significant experience in data modeling, visualization, and collaborative analysis.
 
-## Next Steps
-Future work could explore real-world datasets (e.g., EPA, census), apply machine learning techniques, or build dashboards for policy insights.
+## Code Access
+The full R script for this analysis is available in `remote_work_stress_analysis.R`.  
